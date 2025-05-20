@@ -44,7 +44,7 @@ This is a great live demo to show how *not* to implement JWT validation 😅
 ## 🔐 DPoP (Proof-of-Possession)
 
 - Implemented as a custom Spring filter
-- Can be toggled globally via a property or bean
+- Can be toggled globally via a property `dpop.enabled`
 - Verifies the DPoP JWT:
   - Signature (public key from JWK)
   - HTTP method and URI match
