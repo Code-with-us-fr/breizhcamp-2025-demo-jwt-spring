@@ -1,0 +1,39 @@
+spring:
+  application:
+    name: jwt-breizhcamp-demo
+
+logging:
+  level:
+    org:
+      springframework:
+        web:
+          filter:
+            CommonsRequestLoggingFilter: INFO #DEBUG
+
+server:
+  port: 8081
+
+jwt:
+  secret-key: super-secret-key-breizhcamp-2025
+  check-expiration: true
+  require-signature: true
+
+dpop:
+    enabled: false
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    health:
+      show-details: always
+  metrics:
+    distribution:
+      maximum-expected-value:
+        all: 60000
+      percentiles:
+        all: 0.5, 0.75, 0.95, 0.99
+  server:
+    port: 18081
