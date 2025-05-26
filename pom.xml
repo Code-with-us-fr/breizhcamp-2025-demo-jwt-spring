@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>jwtdemo</artifactId>
+    <artifactId>two-guns-saloon</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>jwt-demo</name>
+    <name>two-guns-saloon</name>
     <description>JWT Demo project for Breizhcamp 2025</description>
     <url/>
     <licenses>

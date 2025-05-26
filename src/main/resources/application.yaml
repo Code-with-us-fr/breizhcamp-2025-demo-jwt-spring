@@ -1,6 +1,6 @@
 spring:
   application:
-    name: jwt-breizhcamp-demo
+    name: two-guns-saloon
 
 logging:
   level:
