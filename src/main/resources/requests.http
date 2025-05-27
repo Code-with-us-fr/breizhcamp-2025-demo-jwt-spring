@@ -3,4 +3,4 @@ GET http://localhost:8081/saloon
 
 ### Authenticated access
 GET http://localhost:8081/saloon
-Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwaXN0b2xlcm8iLCJyb2xlIjoic2hvb3RlciJ9.
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJwaXN0b2xlcm8iLCJyb2xlIjoic2hvb3RlciIsImV4cCI6MTc0ODM1MjEyNX0.V60g5MPC0RdHY0gmBdkkQvl33ti2Sbn2z4_pLKCeLi0

@@ -8,7 +8,7 @@ logging:
       springframework:
         web:
           filter:
-            CommonsRequestLoggingFilter: INFO #DEBUG
+            CommonsRequestLoggingFilter: DEBUG
 
 server:
   port: 8081

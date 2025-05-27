@@ -1,7 +1,7 @@
 ### Generate unsigned JWT token without expiration
 GET http://localhost:8081/token/no-signature
 
-### Generate JWT token with expiration (1 minute)
+### Generate JWT token with expiration (3 minutes)
 GET http://localhost:8081/token/with-expiration
 
 ### Generate JWT token with signature and expiration
