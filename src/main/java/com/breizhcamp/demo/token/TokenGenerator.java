@@ -25,7 +25,7 @@ class TokenGenerator {
                 .claim("role", "shooter");
 
         if (withExpiration) {
-            builder.setExpiration(new Date(System.currentTimeMillis() + 60 * 1000)); // 1 minute
+            builder.setExpiration(new Date(System.currentTimeMillis() + 60 * 13000)); // 3 minutes
         }
 
         if (withSignature) {
