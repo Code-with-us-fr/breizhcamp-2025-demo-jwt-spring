@@ -15,11 +15,6 @@ server:
 
 jwt:
   secret-key: super-secret-key-breizhcamp-2025
-  check-expiration: true
-  require-signature: true
-
-dpop:
-    enabled: false
 
 management:
   endpoints:

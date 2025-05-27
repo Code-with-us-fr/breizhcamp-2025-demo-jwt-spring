@@ -1,8 +1,0 @@
-### Generate valid DPoP
-GET http://localhost:8081/proof-of-possession/valid
-
-### Generate invalid URI DPoP
-GET http://localhost:8081/proof-of-possession/invalid-uri
-
-### Generate invalid method DPoP
-GET http://localhost:8081/proof-of-possession/invalid-method
